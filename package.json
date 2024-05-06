@@ -2,19 +2,13 @@
   "name": "chatgpt",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "index.js",
   "scripts": {
-    "dev": "node script.js"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "openai": "^4.41.1"
-  }
+    "@azure/functions": "^4.0.0"
+  },
+  "devDependencies": {},
+  "main": "src/functions/*.js"
 }
