@@ -1,4 +1,9 @@
 const { app } = require('@azure/functions');
+const OpenAI = require('openai');
+
+const openai = new OpenAI({
+    apiKey: process.env.API_KEY,
+});
 
 app.http('gptFunction', {
     methods: ['GET', 'POST'],
