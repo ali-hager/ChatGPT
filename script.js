@@ -8,7 +8,7 @@ import readline from "readline";
 config();
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const openai = new OpenAI({
   organization: "org-zLQRXWN471215HzDCc7JXJRs",
   apiKey: process.env.API_KEY,
@@ -29,7 +29,7 @@ app.post("/", async (req, res) => {
     messages: [
       {
         role: "system",
-        content: "You are DesignGPT helpful assistant graphics design chatbot.",
+        content: "You are a helpful assistant chatbot.",
       },
       ...messages,
     ],
