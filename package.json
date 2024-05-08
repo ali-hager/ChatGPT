@@ -6,11 +6,10 @@
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\"",
-    "dev": "node functions/script.js",
+    "dev": "node script.js",
     "build": "netlify deploy --prod"
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
