@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import OpenAI from "openai";
 import readline from "readline";
+import serverless from "serverless-http";
 
 config();
 
@@ -58,3 +59,6 @@ userInterface.on("line", async (input) => {
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
+
+app.use('./netfliy/functions/script.js');
+module.exports.handler = serverless(app);

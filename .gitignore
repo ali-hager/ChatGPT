@@ -3,3 +3,6 @@ package-lock.json
 
 # Ignore node_modules directory
 node_modules/
+
+# Local Netlify folder
+.netlify
