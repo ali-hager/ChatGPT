@@ -6,10 +6,11 @@
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\"",
-    "dev": "node script.js"
+    "dev": "node index.js"
   },
   "dependencies": {
     "@azure/functions": "^4.0.0",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",

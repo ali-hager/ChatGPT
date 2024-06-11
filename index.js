@@ -8,7 +8,7 @@ import readline from "readline";
 config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 const openai = new OpenAI({
   organization: "org-zLQRXWN471215HzDCc7JXJRs",
   apiKey: process.env.API_KEY,
