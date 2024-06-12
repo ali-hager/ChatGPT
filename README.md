@@ -10,7 +10,6 @@ Welcome to the **Chatbot for Kids** project! This chatbot allows children to ask
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Development Process](#development-process)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
