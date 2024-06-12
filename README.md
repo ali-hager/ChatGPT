@@ -104,23 +104,6 @@ To make the chatbot more user-friendly and accessible, the project evolved into 
 1. **API Development**: An Express server was created to handle API requests and responses from OpenAI.
 2. **Frontend Development**: A React frontend was built to provide a graphical user interface where children can easily ask questions and see answers.
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request.
-
-### Steps to Contribute
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Create a new Pull Request
-
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Feel free to modify this README to better fit your project's details and specifics.
