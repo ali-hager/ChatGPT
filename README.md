@@ -2,6 +2,8 @@
 
 Welcome to my **AI Chatbot for Kids** project! While it is currently a basic AI chatbot, it is being developed to be more suitable for kids by offering a fun and educational experience for children by allowing them to ask questions and receive answers from the OpenAI API through an interactive web interface.
 
+![Screen Shot 2024-06-13 at 2 33 38 PM](https://github.com/ali-hager/ChatGPT/assets/156130068/e70d8dd2-bd88-4d06-b516-b8109dcf9dc1)
+
 ## Table of Contents
 
 - [Overview](#overview)
