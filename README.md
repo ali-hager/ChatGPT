@@ -1,6 +1,6 @@
 # AI Chatbot
 
-Welcome to the **AI Chatbot for Kids** project! This chatbot aims to offer a fun and educational experience for children by allowing them to ask questions and receive answers from the OpenAI API through an interactive web interface. While it is currently a basic AI chatbot, it is being developed to be more suitable for kids.
+Welcome to my **AI Chatbot for Kids** project! While it is currently a basic AI chatbot, it is being developed to be more suitable for kids by offering a fun and educational experience for children by allowing them to ask questions and receive answers from the OpenAI API through an interactive web interface.
 
 ## Table of Contents
 
@@ -67,7 +67,7 @@ Follow these steps to set up the project on your local machine.
 1. Start the backend server:
 
    ```bash
-   node server.js
+   node script.js
    ```
 
 2. Open your browser and navigate to `http://localhost:3000` to use the chatbot.
@@ -92,7 +92,7 @@ The project started with a simple command-line interface using the `readline` mo
 
 ### Transition to Web Application
 
-To make the chatbot more user-friendly and accessible, the project evolved into a web application using HTML and CSS for the frontend.
+To make the chatbot more user-friendly and accessible, the project evolved into a web application using HTML for the frontend.
 
 ### Future Plans: React Frontend
 
