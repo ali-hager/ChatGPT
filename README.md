@@ -1,6 +1,6 @@
-# Chatbot for Kids
+# AI Chatbot
 
-Welcome to the **Chatbot for Kids** project! This chatbot allows children to ask questions and receive answers from the OpenAI API through an interactive web interface.
+Welcome to the **AI Chatbot for Kids** project! This chatbot aims to offer a fun and educational experience for children by allowing them to ask questions and receive answers from the OpenAI API through an interactive web interface. While it is currently a basic AI chatbot, it is being developed to be more suitable for kids.
 
 ## Table of Contents
 
@@ -10,17 +10,18 @@ Welcome to the **Chatbot for Kids** project! This chatbot allows children to ask
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Development Process](#development-process)
+- [Future Plans](#future-plans)
 - [License](#license)
 
 ## Overview
 
-The Chatbot for Kids is a fun and educational tool designed to provide answers to children's questions using the OpenAI API. It started as a command-line application using `readline` and was then developed into a full-fledged web application with a React frontend.
+The AI Chatbot for Kids is designed to eventually provide engaging and educational interactions for children by answering their questions using the OpenAI API. Initially, it was a command-line application using `readline`, and it has now evolved into a basic web application using HTML.
 
 ## Features
 
 - User-friendly web interface for asking questions
 - Real-time responses from the OpenAI API
-  
+
 ## Setup
 
 Follow these steps to set up the project on your local machine.
@@ -35,8 +36,8 @@ Follow these steps to set up the project on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/chatbot-for-kids.git
-   cd chatbot-for-kids
+   git clone https://github.com/ali-hager/ChatGPT.git
+   cd chatgpt
    ```
 
 2. Install server dependencies:
@@ -69,14 +70,7 @@ Follow these steps to set up the project on your local machine.
    node server.js
    ```
 
-2. Start the React frontend:
-
-   ```bash
-   cd client
-   npm start
-   ```
-
-3. Open your browser and navigate to `http://localhost:3000` to use the chatbot.
+2. Open your browser and navigate to `http://localhost:3000` to use the chatbot.
 
 ## Usage
 
@@ -86,7 +80,7 @@ Follow these steps to set up the project on your local machine.
 ## Technologies Used
 
 - **Backend**: Node.js, Express
-- **Frontend**: React
+- **Frontend**: HTML, CSS
 - **API**: OpenAI API
 - **Other**: `readline` for initial command-line interaction
 
@@ -94,14 +88,23 @@ Follow these steps to set up the project on your local machine.
 
 ### Initial Phase: Command-line Interface
 
-The project started with a simple command-line interface using the `readline` module to interact with the OpenAI API. This allowed basic question and answer functionality in the terminal.
+The project started with a simple command-line interface using the `readline` module to interact with the OpenAI API. This allowed basic question-and-answer functionality in the terminal.
 
-### Transition to API and React Frontend
+### Transition to Web Application
 
-To make the chatbot more user-friendly and accessible, the project evolved into a web application:
+To make the chatbot more user-friendly and accessible, the project evolved into a web application using HTML and CSS for the frontend.
 
-1. **API Development**: An Express server was created to handle API requests and responses from OpenAI.
-2. **Frontend Development**: A React frontend was built to provide a graphical user interface where children can easily ask questions and see answers.
+### Future Plans: React Frontend
+
+A branch has been created to transition the frontend to React, providing a more dynamic and interactive user experience.
+
+## Future Plans
+
+The project aims to include the following features to make it more suitable for children:
+
+- Simplified language and responses
+- Interactive and engaging UI elements
+- Parental controls and monitoring options
 
 ## License
 
